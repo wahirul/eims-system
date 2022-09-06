@@ -27,6 +27,10 @@ export const AddEmp = () =>{
                   <label>Job Position :</label>
                   <input className='w-[400px] rounded-md border relative bg-gray-100 p-2' placeholder='Enter Job Position' type="password" required/>
               </div>
+              <div className='flex flex-col mb-4'>
+                  <label>Marital Status :</label>
+                  <input className='w-[400px] rounded-md border relative bg-gray-100 p-2' placeholder='Enter Marital Status' type="password" required/>
+              </div>
               <div className='flex justify-center items-center'>
                 <button className='flex justify-center items-center rounded-md w-[100px] py-2 mt-8 bg-black hover:bg-blue-600 relative text-white font-bold'>
                   <svg className='' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" class="w-6 h-6">
